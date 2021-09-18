@@ -1,0 +1,24 @@
+{
+  "name": "klimazonen",
+  "version": "1.0.0",
+  "description": "Eine einfache Website die Klimatabellen Klimaschlüssel zuordnet",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpatzlHD/klimazonen.git"
+  },
+  "author": "Alexander Kögel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpatzlHD/klimazonen/issues"
+  },
+  "homepage": "https://github.com/SpatzlHD/klimazonen#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}

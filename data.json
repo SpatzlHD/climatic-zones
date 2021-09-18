@@ -1,0 +1,58 @@
+{
+  "tabel": [
+    {
+      "january": {
+        "temperature": 6.9,
+        "precipitation": 76
+      },
+      "February": {
+        "temperature": 7.7,
+        "precipitation": 88
+      },
+      "March": {
+        "temperature": 10.8,
+        "precipitation": 77
+      },
+      "april": {
+        "temperature": 13.9,
+        "precipitation": 72
+      },
+      "May": {
+        "temperature": 18.1,
+        "precipitation": 63
+      },
+      "June": {
+        "temperature": 22.1,
+        "precipitation": 48
+      },
+      "July": {
+        "temperature": 24.7,
+        "precipitation": 14
+      },
+      "August": {
+        "temperature": 24.5,
+        "precipitation": 22
+      },
+      "september": {
+        "temperature": 21.1,
+        "precipitation": 70
+      },
+      "October": {
+        "temperature": 16.4,
+        "precipitation": 128
+      },
+      "November": {
+        "temperature": 11.7,
+        "precipitation": 116
+      },
+      "December": {
+        "temperature": 8.5,
+        "precipitation": 106
+      },
+      "annual_average": {
+        "temperature": 15.5,
+        "precipitation": 880
+      }
+    }
+  ]
+}
