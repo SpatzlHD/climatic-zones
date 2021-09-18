@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+.header-logo {
+  position: absolute;
+  width: 136px;
+  height: 131px;
+  left: 119px;
+  top: 9px;
+}
+.error-message {
+  position: absolute;
+  width: 364px;
+  height: 196px;
+  left: 5px;
+  top: 176px;
+
+  font-family: Roboto Mono;
+  font-style: bold;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+
+  color: #000000;
+}
+.Error-Footer {
+  position: absolute;
+  width: 353px;
+  height: 76px;
+  left: 11px;
+  top: 406px;
+
+  font-family: Roboto Mono;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #000000;
+}
+
+@media only screen and (min-width: 768px) {
+  .header-logo {
+    position: absolute;
+    width: 261px;
+    height: 261px;
+    left: 254px;
+    top: 70px;
+  }
+  .error-message {
+    position: absolute;
+    width: 717px;
+    height: 184px;
+    left: 26px;
+    top: 389px;
+
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+
+    color: #000000;
+  }
+  .Error-Footer {
+    position: absolute;
+    width: 575px;
+    height: 129px;
+    left: 97px;
+    top: 651px;
+
+    font-family: Roboto Mono;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+
+    color: #000000;
+  }
+}
+
+@media only screen and (min-width: 1280) {
+  .header-logo {
+    position: absolute;
+    width: 251px;
+    height: 251px;
+    left: 514px;
+    top: 0px;
+  }
+  .error-message {
+    position: absolute;
+    width: 954px;
+    height: 148px;
+    left: 163px;
+    top: 288px;
+
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+
+    color: #000000;
+  }
+  .Error-Footer {
+    position: absolute;
+    width: 609px;
+    height: 130px;
+    left: 323px;
+    top: 473px;
+
+    font-family: Roboto Mono;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+
+    color: #000000;
+  }
+}

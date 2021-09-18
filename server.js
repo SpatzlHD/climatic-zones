@@ -4,12 +4,12 @@ const app = express();
 let klimaschlüsel;
 app.set("view-engine", "ejs");
 app.use(express.urlencoded());
-app.use(express.static(__dirname + "/style.css"));
+app.use(express.static(__dirname + "/pages"));
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "/home.html"));
+  res.sendFile(path.join(__dirname, "/pages/home.html"));
 });
 app.get("/klima", (req, res) => {
-  res.sendFile(path.join(__dirname, "/klima.html"));
+  res.sendFile(path.join(__dirname, "/pages/klima.html"));
 });
 app.post("/klima", (req, res) => {
   //temperaturen
@@ -213,14 +213,13 @@ app.post("/klima", (req, res) => {
     k3 = "4";
   }
   klimaschlüsel = `${k1}${k2}${k3}`;
-  console.log(klimaschlüsel);
   res.redirect("/result");
 });
 app.get("/result", (req, res) => {
   res.render("result.ejs", { k: klimaschlüsel });
 });
 app.get("/error", (req, res) => {
-  res.sendFile(path.join(__dirname, "/error.html"));
+  res.sendFile(path.join(__dirname, "/pages/error.html"));
 });
 app.listen(3000, 3001);
 
