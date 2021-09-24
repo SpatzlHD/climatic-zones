@@ -117,42 +117,42 @@ app.post("/klima", (req, res) => {
   }
 
   //klimaschlüsel 2
-  if (temperatureJanuary * 2 > precipitationJanuary) {
+  if (temperatureJanuary * 2 < precipitationJanuary) {
     humid = humid + 1;
   }
 
-  if (temperatureFebruary * 2 > precipitationFebruary) {
+  if (temperatureFebruary * 2 < precipitationFebruary) {
     humid = humid + 1;
   }
 
-  if (temperatureMarch * 2 > precipitationMarch) {
+  if (temperatureMarch * 2 < precipitationMarch) {
     humid = humid + 1;
   }
-  if (temperatureApril * 2 > precipitationApril) {
+  if (temperatureApril * 2 < precipitationApril) {
     humid = humid + 1;
   }
-  if (temperatureMay * 2 > precipitationMay) {
+  if (temperatureMay * 2 < precipitationMay) {
     humid = humid + 1;
   }
-  if (temperatureJune * 2 > precipitationJune) {
+  if (temperatureJune * 2 < precipitationJune) {
     humid = humid + 1;
   }
-  if (temperatureJuly * 2 > precipitationJuly) {
+  if (temperatureJuly * 2 < precipitationJuly) {
     humid = humid + 1;
   }
-  if (temperatureAugust * 2 > precipitationAugust) {
+  if (temperatureAugust * 2 < precipitationAugust) {
     humid = humid + 1;
   }
-  if (temperatureSeptember * 2 > precipitationSeptember) {
+  if (temperatureSeptember * 2 < precipitationSeptember) {
     humid = humid + 1;
   }
-  if (temperatureOctober * 2 > precipitationOctober) {
+  if (temperatureOctober * 2 < precipitationOctober) {
     humid = humid + 1;
   }
-  if (temperatureNovember * 2 > precipitationNovember) {
+  if (temperatureNovember * 2 < precipitationNovember) {
     humid = humid + 1;
   }
-  if (temperatureDecember * 2 > precipitationDecember) {
+  if (temperatureDecember * 2 < precipitationDecember) {
     humid = humid + 1;
   }
 
